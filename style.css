@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+  width: 1152px;
+  margin: 0 auto;
+}
+
+/* Top Nav */
+
+.top-nav {
+  position: fixed;
+  left: 0;
+  right: 0;
+  background: #222;
+  padding: 4px 0;
+  z-index: 200;
+}
+
+.top-nav .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 32px;
+}
+
+.top-nav .search-icon {
+  cursor: pointer;
+}
+
+.top-nav nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.top-nav nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+/* Hero Section */
+
+.header-wrapper {
+  max-width: 1152px;
+  margin: 0 auto;
+  background: #000;
+  height: 100vh;
+}
+
+.header-wrapper .hero {
+  display: flex;
+}
+
+.header-wrapper .hero .hero-left,
+.header-wrapper .hero .hero-right {
+  flex: 1;
+}
+
+.header-wrapper .hero .hero-left {
+  align-self: center;
+  padding-left: 100px;
+}
+
+.header-wrapper .hero h1.main-heading {
+  color: #fcfcfc;
+  font-family: "Dancing Script", cursive;
+  font-size: 64px;
+}
+
+.header-wrapper .hero p.main-subheading {
+  color: #fcfcfc;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+
+a.btn {
+  background: #ffe259;
+  color: #000;
+  text-decoration: none;
+  padding: 8px 24px;
+  display: inline-block;
+  font-size: 16px;
+}
